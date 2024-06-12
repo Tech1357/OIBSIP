@@ -1,0 +1,73 @@
+img{
+    filter:blur(5px);
+}
+body{
+    margin: 0px;
+    text-align:center;
+}
+.temp-header{
+    position:absolute;
+    top:70px;
+    color:white;
+    left:570px;
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium';
+}
+input,select{
+    text-align: center;
+    height:40px;
+    width: 300px;
+}
+.lab1{
+    position: absolute;
+    top:200px;
+    left:670px;
+    color:white;
+    font-size: 1.7rem;
+    font-family: Cambria;
+}
+.note{
+    position: absolute;
+    top:250px;
+    left:620px;
+    font-size: 1rem;
+}
+.lab2{
+    position:absolute;
+    top:320px;
+    left:660px;
+    color:white;
+    font-size: 1.7rem;
+    font-family: Cambria;
+}
+#type{
+    position: absolute;
+    top:370px;
+    left:620px;
+    font-size: 1rem;
+}
+#Convert{
+    position:absolute;
+    top:440px;
+    left:620px;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    color:black;
+}
+#Convert:hover{
+    background-color: rgb(157, 197, 26);
+}
+.result{
+    width: 400px;
+    height:80px;
+    background-color: aliceblue;
+    position:absolute;
+    top:520px;
+    left:570px;
+    color:black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
